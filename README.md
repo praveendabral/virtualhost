@@ -14,6 +14,7 @@ $ sudo cp /path/to/virtualhost.sh /usr/local/bin/virtualhost
 ```
 
 3. Apply permission to execute:
+
 ```
 chmod +x /path/to/virtualhost
 ```
@@ -37,21 +38,21 @@ $ sudo sh /path/to/virtualhost.sh [create | delete] [domain] [optional root_dir]
 to create a new virtual host:
 
 ```bash
-$ sudo virtualhost create mysite.dev
+$ sudo virtualhost create mysite.local
 ```
 to create a new virtual host with custom directory name:
 
 ```bash
-$ sudo virtualhost create anothersite.dev root_dir
+$ sudo virtualhost create anothersite.local root_dir
 ```
 to delete a virtual host
 
 ```bash
-$ sudo virtualhost delete mysite.dev
+$ sudo virtualhost delete mysite.local
 ```
 
 to delete a virtual host with custom directory name:
 
 ```
-$ sudo virtualhost delete anothersite.dev root_dir
+$ sudo virtualhost delete anothersite.local root_dir
 ```
